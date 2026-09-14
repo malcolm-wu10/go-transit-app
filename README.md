@@ -1,6 +1,6 @@
 # GO Transit Live Tracker + Trip Planner
 
-MVP scaffold: live vehicle map (backend polls Metrolinx GTFS-RT, frontend renders
+Live vehicle map (backend polls Metrolinx GTFS-RT, frontend renders
 markers + hover popups on MapLibre) and a pull-out trip-planner sidebar wired to
 proxy to a self-hosted OpenTripPlanner instance.
 
