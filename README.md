@@ -23,7 +23,7 @@ proxy to a self-hosted OpenTripPlanner instance.
   the backend uses the checked-in static GO GTFS schedule and returns exact
   direct train-only or bus-only scheduled trips instead of invented mock routes.
 
-## What you still need to do
+## What still needed to do
 
 ### 1. Get a Metrolinx GO API key (for real live data)
 
@@ -35,6 +35,7 @@ proxy to a self-hosted OpenTripPlanner instance.
 4. Also download the GO Transit static GTFS zip from the GO Transit developer
    page — you'll need it for OTP (step 2) and eventually for building a
    stops/routes picker in the UI instead of raw lat/lon clicking.
+5. Once 1 - 4 are finished complete testing on backend map routing and frontend visuals
 
 Until you have the key, the backend automatically serves mock vehicles so you
 can keep building the UI. The static GTFS files in `data/gtfs/go` and
