@@ -35,7 +35,7 @@ proxy to a self-hosted OpenTripPlanner instance.
 4. Also download the GO Transit static GTFS zip from the GO Transit developer
    page — you'll need it for OTP (step 2) and eventually for building a
    stops/routes picker in the UI instead of raw lat/lon clicking.
-5. Once 1 - 4 are finished complete testing on backend map routing and frontend visuals
+5. Once 1 - 4 are finished complete testing on backend map routing and frontend visuals (currently awaiting API key from Metrolinx)
 
 Until you have the key, the backend automatically serves mock vehicles so you
 can keep building the UI. The static GTFS files in `data/gtfs/go` and
@@ -81,7 +81,7 @@ cd frontend && npm install && npm run dev
 
 Open http://localhost:5173.
 
-## Known shortcuts taken (intentionally, to get you moving fast)
+## Known shortcuts taken
 
 - **Station/terminal list for the search bar is hand-typed** (`frontend/src/data/stations.js`)
   — covers all GO rail stations plus a handful of major bus terminals, not the
