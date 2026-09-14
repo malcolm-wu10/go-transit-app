@@ -1,0 +1,41 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+**/dist/
+
+# Local OpenTripPlanner downloads and graph data
+otp/*.jar
+otp/*.pbf
+otp/*.zip
+otp/graphs/
+otp/cache/
+
+# Raw GTFS feeds can contain files larger than GitHub's 100 MB file limit.
+# Keep the generated frontend data checked in and download these feeds locally.
+data/gtfs/
+
+# Logs and local tooling
+*.log
+**/*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS/editor temp files
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*~

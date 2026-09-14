@@ -1,0 +1,14 @@
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Dependency installs
+node_modules/
+
+# Runtime logs
+*.log
+
+# Local generated data
+server-runtime.log
+server-runtime-error.log
