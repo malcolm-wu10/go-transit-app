@@ -27,6 +27,8 @@ proxy to a self-hosted OpenTripPlanner instance.
 
 ### 1. Get a Metrolinx GO API key (for real live data)
 
+**Update** Received Metrolinx API on 2026-09-18, and will be updating the project soon
+
 1. Go to the GO API Registration page and create an account.
 2. Once approved, you'll get an API key and the actual GTFS-RT endpoint URLs
    for your account (VehiclePositions / TripUpdates / ServiceAlerts).
